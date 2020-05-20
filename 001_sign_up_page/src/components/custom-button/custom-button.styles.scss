@@ -1,0 +1,24 @@
+button {
+  cursor: pointer;
+  height: 42px;
+  margin: 2px 0.3rem 0;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: rgb(236, 236, 236);
+}
+
+.create-account {
+  background-color: rgb(34, 149, 243);
+  color: white;
+  font-size: 1rem;
+  margin-top: 3rem;
+  margin-left: 0;
+  padding: 0 30px;
+
+  &:hover {
+    background-color: rgb(0, 123, 224);
+    transition: all 0.4s;
+  }
+}

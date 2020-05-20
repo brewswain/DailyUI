@@ -1,0 +1,90 @@
+.sign-up-page {
+  display: flex;
+  width: 100vw;
+}
+
+.sign-in-link {
+  position: absolute;
+  right: 4rem;
+  top: 4rem;
+  font-size: 1.2rem;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.sidebar {
+  width: 700px;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background: url(../../assets/sidebar.svg);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-color: rgb(165, 182, 235);
+  background-position: 30% 90%;
+
+  h2 {
+    font-size: 4.5rem;
+
+    font-weight: 900;
+    margin: 1.5rem 0 0 4rem;
+  }
+  span {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 1.5rem 0 0 4rem;
+    color: rgb(32, 58, 136);
+  }
+}
+
+.form-container {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up-header {
+  width: 39.4%;
+}
+
+.line-break-container {
+  display: flex;
+  align-items: center;
+  margin-left: 4.3rem;
+
+  .horizontal-rule {
+    width: 13.7vw;
+    background-color: #555;
+    height: 2px;
+    margin: 15px 10px 10px;
+  }
+
+  hr {
+    width: 25%;
+  }
+  span {
+    vertical-align: middle;
+  }
+}
+.button-container {
+  display: flex;
+  width: 39.5%;
+  justify-content: flex-start;
+}
+
+.sign-in-button {
+  cursor: pointer;
+}
+
+.sign-in-image {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
