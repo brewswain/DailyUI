@@ -1,0 +1,16 @@
+* {
+  font-size: 18px;
+}
+
+body {
+  background-color: #f6f9ff;
+  color: #7c8797;
+  font-family: Roboto, serif;
+  font-size: 16px;
+}
+
+.payment-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
