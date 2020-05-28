@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    padding-inline-start: 10px;
+    li {
+      padding: 5px;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .header {
+    justify-content: space-between;
+
+    ul {
+      li {
+        padding-right: 35px;
+      }
+    }
+  }
+}

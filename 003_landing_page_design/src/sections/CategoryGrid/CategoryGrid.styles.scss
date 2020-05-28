@@ -1,0 +1,19 @@
+.grid-container {
+  min-height: 100vh;
+  background: hsl(228, 38, 97);
+
+  .category-header {
+    font-size: 2.3rem;
+    font-weight: 900;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    color: hsl(225, 20, 15);
+  }
+}
+
+.grid-tiles-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 0 10px;
+}

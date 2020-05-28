@@ -1,0 +1,20 @@
+.category-tile {
+  .job-category {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: hsl(0, 0, 50%);
+  }
+
+  .job-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: hsl(0, 0, 27%);
+  }
+  .job-details {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: hsl(0, 0, 50%);
+  }
+}

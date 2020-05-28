@@ -1,0 +1,18 @@
+.category-subtitle {
+  text-align: center;
+}
+
+.grid-container {
+  .custom-button {
+    display: flex;
+    margin: 20px auto;
+    height: 50px;
+    padding: 0 35px;
+    font-size: 0.9rem;
+
+    &:hover {
+      color: hsl(242, 70, 56);
+      background-color: white;
+    }
+  }
+}

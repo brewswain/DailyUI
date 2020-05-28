@@ -1,0 +1,21 @@
+.category-tile {
+  height: 50vw;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 1.1rem;
+
+  .category-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: hsl(0, 0, 27%);
+  }
+  .category-logo {
+    width: 35px;
+  }
+}
+
+.last-item {
+  grid-column: span 2;
+}
