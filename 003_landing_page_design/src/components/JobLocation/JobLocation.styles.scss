@@ -1,13 +1,12 @@
 .job-location-container {
-  padding-top: 1.2rem;
-  border-top: 1px solid hsl(0, 0, 90%);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  //   color: hsl(0, 0, 30%);
-  color: hsl(223, 18, 26);
   font-family: "Roboto", sans-serif;
+  padding: 3rem 0;
+  border-top: 1px solid hsl(0, 0, 90);
+  color: hsl(223, 18, 26);
 
   span {
     font-weight: 400;
@@ -21,7 +20,7 @@
       list-style-type: none;
       padding-inline-start: 0;
       li {
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 600;
 
         cursor: pointer;
@@ -29,7 +28,7 @@
       }
       a {
         text-decoration: none;
-        color: hsl(0, 0, 30%);
+        color: hsl(0, 0, 30);
         &:hover {
           color: hsl(242, 70, 56);
           border-bottom: 2px solid hsl(242, 70, 56);

@@ -1,5 +1,6 @@
 .category-subtitle {
   text-align: center;
+  font-family: Roboto;
 }
 
 .grid-container {
@@ -13,6 +14,68 @@
     &:hover {
       color: hsl(242, 70, 56);
       background-color: white;
+    }
+  }
+}
+
+@media (min-width: 820px) {
+  .jobs-grid {
+    .internal-wrapper {
+      .caption-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 10%;
+        padding: 5rem 0 2rem 0.5rem;
+
+        .category-header {
+          padding: 0;
+          margin-bottom: 0;
+        }
+
+        .category-subtitle {
+          font-size: 1.2rem;
+          padding-left: 0.1rem;
+        }
+      }
+    }
+
+    .grid-tiles-container {
+      grid-template-columns: repeat(3, 1fr);
+      column-gap: 15px;
+      margin-bottom: 1rem;
+
+      .category-tile {
+        width: 25vw;
+        height: 17vw;
+
+        .job-category {
+          font-size: 1rem;
+        }
+        .dot {
+          height: 15px;
+          width: 15px;
+        }
+
+        .job-title {
+          font-size: 1.5rem;
+          font-weight: 900;
+        }
+
+        .job-details {
+          font-size: 1rem;
+        }
+      }
+    }
+
+    .custom-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 70px;
+      width: 200px;
+      font-size: 1.1rem;
+      font-family: Roboto;
     }
   }
 }

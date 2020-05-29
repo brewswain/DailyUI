@@ -1,0 +1,92 @@
+@media (min-width: 820px) {
+  .startups-grid {
+    .internal-wrapper {
+      .caption-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 10%;
+        padding: 5rem 0 2rem 0.5rem;
+
+        .category-header {
+          padding: 0;
+          margin-bottom: 0;
+        }
+
+        .category-subtitle {
+          font-size: 1.2rem;
+          padding-left: 0.1rem;
+        }
+      }
+
+      .grid-tiles-container {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 15px;
+        margin-bottom: 1rem;
+        margin: 0 auto;
+
+        .startups {
+          width: 25vw;
+          height: 17vw;
+          font-family: GilroyBold;
+          color: hsl(225, 20, 15);
+
+          .company-logo {
+            width: 50px;
+          }
+
+          .company-name {
+            font-size: 2rem;
+          }
+
+          .company-details {
+            font-size: 1rem;
+          }
+          .card-footer {
+            justify-content: space-between;
+            font-size: 1rem;
+            font-weight: 900;
+            font-family: GilroyLight;
+            padding: 0 3px;
+
+            .details-container {
+              color: hsl(225, 20, 15);
+            }
+
+            .openings {
+              font-weight: 900;
+            }
+          }
+        }
+      }
+      .custom-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        width: 220px;
+        font-size: 1.1rem;
+        font-family: Roboto;
+      }
+
+      .job-location-container {
+        width: 100%;
+        justify-content: center;
+
+        span {
+          font-size: 1.1rem;
+        }
+
+        .country-list {
+          ul {
+            margin-top: 2rem;
+          }
+          a {
+            font-family: GilroyLight;
+            font-size: 1.3rem;
+          }
+        }
+      }
+    }
+  }
+}

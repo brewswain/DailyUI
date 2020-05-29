@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(225, 20, 15);
+  color: hsl(228, 4, 88);
+  min-height: 80px;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-inline-start: 0;
+    font-size: 0.9rem;
+    cursor: pointer;
+
+    li {
+      + li {
+        padding-left: 20px;
+      }
+    }
+  }
+}

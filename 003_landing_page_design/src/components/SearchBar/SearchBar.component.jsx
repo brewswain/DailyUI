@@ -1,13 +1,17 @@
 import React from "react";
 
-import CustomButton from "../CustomButton/CustomButton.component";
+import { CustomButton } from "../../components";
 
 import "./SearchBar.styles.scss";
 
 const SearchBar = () => (
   <div className="search-bar">
     <div className="search-box">
-      <div className="search-entry">Job title or keyword</div>
+      <input
+        type="text"
+        className="search-entry"
+        placeholder="Job title or keyword"
+      />
     </div>
     <div className="search-location-dropdown">Tacarigua, Trinidad</div>
     <CustomButton>Search</CustomButton>

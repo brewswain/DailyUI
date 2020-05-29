@@ -1,50 +1,62 @@
+import {
+  BusinessDevelopmentLogo,
+  CustomerSupportLogo,
+  DesignLogo,
+  DevelopmentLogo,
+  FinanceLogo,
+  HumanResourcesLogo,
+  MarketingLogo,
+  ProjectManagementLogo,
+  SalesLogo,
+} from "../assets/index";
+
 const CATEGORY_DATA = {
   items: [
     {
       id: 1,
       name: "Business Development",
-      logo: "https://image.flaticon.com/icons/svg/901/901492.svg",
+      logo: BusinessDevelopmentLogo,
     },
 
     {
       id: 2,
       name: "Customer Support",
-      logo: "https://image.flaticon.com/icons/svg/493/493808.svg",
+      logo: CustomerSupportLogo,
     },
     {
       id: 3,
       name: "Design",
-      logo: "https://image.flaticon.com/icons/png/512/2962/2962729.png",
+      logo: DesignLogo,
     },
     {
       id: 4,
       name: "Development",
-      logo: "https://image.flaticon.com/icons/svg/888/888713.svg",
+      logo: DevelopmentLogo,
     },
     {
       id: 5,
       name: "Finance",
-      logo: "https://image.flaticon.com/icons/svg/858/858151.svg",
+      logo: FinanceLogo,
     },
     {
       id: 6,
       name: "Human Resources",
-      logo: "https://image.flaticon.com/icons/png/512/2962/2962712.png",
+      logo: HumanResourcesLogo,
     },
     {
       id: 7,
       name: "Marketing & Communication",
-      logo: "https://image.flaticon.com/icons/svg/2977/2977935.svg",
+      logo: MarketingLogo,
     },
     {
       id: 8,
       name: "Project Management",
-      logo: "https://image.flaticon.com/icons/svg/684/684831.svg",
+      logo: ProjectManagementLogo,
     },
     {
       id: "last-item",
       name: "Sales",
-      logo: "https://image.flaticon.com/icons/svg/2910/2910234.svg",
+      logo: SalesLogo,
     },
   ],
 };

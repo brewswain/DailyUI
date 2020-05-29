@@ -9,16 +9,16 @@ const JobLocation = () => (
     <div className="country-list">
       <ul>
         <li>
-          <a href="#">Barbados</a>{" "}
+          <a href="/">Barbados</a>
         </li>
         <li>
-          <a href="#">Grenada</a>
+          <a href="/">Grenada</a>
         </li>
         <li>
-          <a href="#">Curacao</a>
+          <a href="/">Curacao</a>
         </li>
         <li>
-          <a href="#">Guyana</a>
+          <a href="/">Guyana</a>
         </li>
       </ul>
     </div>

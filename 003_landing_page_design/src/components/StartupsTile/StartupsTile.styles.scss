@@ -1,0 +1,46 @@
+.startups {
+  width: 41vw;
+  .company-logo {
+    width: 30px;
+  }
+
+  .company-name {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: 0;
+  }
+  .company-details {
+    font-size: 0.9rem;
+    color: hsl(0, 0, 35);
+    font-family: "Roboto", sans-serif;
+  }
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+    font-weight: 600;
+
+    .details-container {
+      display: flex;
+      align-items: center;
+      color: gray;
+
+      .company-category {
+        border-right: 1px solid hsl(0, 0, 80);
+        padding-right: 10px;
+      }
+
+      ul {
+        padding-inline-start: 10px;
+        padding-right: 10px;
+        list-style-type: none;
+      }
+    }
+    .openings {
+      padding: 5px;
+      color: hsl(240, 70, 50);
+      font-weight: 800;
+    }
+  }
+}

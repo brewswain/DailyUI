@@ -1,27 +1,25 @@
-.header {
+.navbar {
   display: flex;
-  font-family: "Roboto", sans-serif;
-  height: 60px;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  background: hsl(225, 20, 15);
+  color: hsl(228, 4, 88);
 
   ul {
     list-style-type: none;
     display: flex;
-    padding-inline-start: 10px;
+    padding-inline-start: 0;
     li {
       padding: 5px;
-    }
-  }
-}
 
-@media (min-width: 900px) {
-  .header {
-    justify-content: space-between;
-
-    ul {
-      li {
-        padding-right: 35px;
+      a {
+        text-decoration: none;
+        color: hsl(228, 4, 88);
       }
     }
   }

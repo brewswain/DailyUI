@@ -4,6 +4,9 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker.js";
 
+import "./fonts/Gilroy-ExtraBold.otf";
+import "./fonts/Gilroy-Light.otf";
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

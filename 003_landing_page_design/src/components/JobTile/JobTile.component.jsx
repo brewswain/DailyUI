@@ -3,11 +3,14 @@ import React from "react";
 import "./JobTile.styles.scss";
 
 const JobTile = (item) => {
-  const { category, jobTitle, location, duration } = item;
+  const { category, jobTitle, location, duration, color } = item;
 
   return (
     <div className="category-tile">
-      <p className="job-category">{category}</p>
+      <p className="job-category">
+        <span class="dot" style={{ background: `${color}` }}></span>
+        {category}
+      </p>
       <span className="job-title">{jobTitle}</span>
       <div className="job-details">
         <span className="job-location">{location}</span>

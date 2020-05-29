@@ -2,6 +2,7 @@ const JOB_DATA = {
   items: [
     {
       id: 1,
+      color: "rgb(70,64,222)",
       category: "design",
       jobTitle: "Marketing & Communications Manager",
       location: "Arima",
@@ -9,13 +10,15 @@ const JOB_DATA = {
     },
     {
       id: 2,
+      color: "rgb(102,240,227)",
       category: "development",
-      jobTitle: "Senior B2B Sales Consultant - Sweden",
-      location: "Tacarigua",
+      jobTitle: "Senior B2B Sales Consultant",
+      location: "Couva",
       duration: "Full-time",
     },
     {
       id: 3,
+      color: "rgb(255,178,0",
       category: "marketing",
       jobTitle: "Social Media Manager",
       location: "POS",
@@ -23,6 +26,7 @@ const JOB_DATA = {
     },
     {
       id: 4,
+      color: "rgb(102,240,227)",
       category: "development",
       jobTitle: "Junior React Engineer",
       location: "Glencoe",
@@ -30,13 +34,15 @@ const JOB_DATA = {
     },
     {
       id: 5,
+      color: "rgb(70,64,222)",
       category: "design",
       jobTitle: "Senior eCommerce UI Designer",
-      location: "Tacarigua",
+      location: "Couva",
       duration: "Full-time",
     },
     {
       id: 6,
+      color: "rgb(241,81,83)",
       category: "business development",
       jobTitle: "CFO",
       location: "POS",

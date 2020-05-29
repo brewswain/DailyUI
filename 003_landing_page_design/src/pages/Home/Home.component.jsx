@@ -1,9 +1,13 @@
 import React from "react";
 
-import LandingSection from "../../sections/Landing/Landing.component";
-import CategoryGridSection from "../../sections/CategoryGrid/CategoryGrid.component";
-import JobGridSection from "../../sections/JobGrid/JobGrid.component";
-import StartupsGridSection from "../../sections/StartupsGrid/StartupsGrid.component";
+import {
+  LandingSection,
+  CategoryGridSection,
+  JobGridSection,
+  StartupsGridSection,
+} from "../../sections";
+
+import { Footer } from "../../components";
 
 import "./Home.styles.scss";
 
@@ -13,6 +17,7 @@ const HomePage = () => (
     <CategoryGridSection />
     <JobGridSection />
     <StartupsGridSection />
+    <Footer />
   </div>
 );
 

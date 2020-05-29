@@ -13,15 +13,17 @@ const StartupsTile = (item) => {
   } = item;
 
   return (
-    <div className="category-tile">
-      <img src={companyLogo} alt="" className="company-logo" />
-      <p className="company-name">{companyName}</p>
-      <span className="company-details">{companyDetails}</span>
+    <div className="category-tile startups">
+      <img className="company-logo" src={companyLogo} alt="" />
+      <div className="company-container">
+        <p className="company-name">{companyName}</p>
+        <span className="company-details">{companyDetails}</span>
+      </div>
       <div className="card-footer">
-        <div className="company-details">
+        <div className="details-container">
           <span className="company-category">{companyCategory}</span>
           <ul>
-            <li className="job-location">{location}</li>
+            <li className="job-location">{location} </li>
           </ul>
         </div>
         <span className="openings">{openings} jobs</span>
