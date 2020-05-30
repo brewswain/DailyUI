@@ -1,0 +1,8 @@
+.side-row {
+  color: rgb(197, 55, 57);
+
+  &:last-child {
+    color: white;
+    background-color: rgb(197, 55, 57);
+  }
+}

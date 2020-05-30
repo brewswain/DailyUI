@@ -1,0 +1,17 @@
+.button {
+  font-size: 1.6rem;
+}
+
+.functional-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-row {
+  color: white;
+
+  &:last-child {
+    color: rgb(197, 55, 57);
+  }
+}

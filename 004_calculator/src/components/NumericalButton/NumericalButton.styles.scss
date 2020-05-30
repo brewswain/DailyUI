@@ -1,0 +1,11 @@
+.numerical-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: hsl(0, 0, 60);
+
+  &:last-child {
+    color: white;
+  }
+}

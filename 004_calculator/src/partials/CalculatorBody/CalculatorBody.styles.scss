@@ -1,0 +1,37 @@
+.calculator-body {
+  width: 400px;
+
+  background-color: hsl(0, 0, 21);
+}
+
+.buttons-container {
+  height: 550px;
+}
+
+.body-top-section {
+  display: flex;
+  height: 20%;
+
+  .functional-top-bar-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+  }
+}
+
+.body-bottom-section {
+  display: flex;
+  height: 80%;
+
+  .numerical-button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+  }
+
+  .functional-side-bar-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 25%;
+  }
+}
