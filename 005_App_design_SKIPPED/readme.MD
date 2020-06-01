@@ -1,0 +1,1 @@
+Due to the requirements of this UI challenge, I skipped it.
