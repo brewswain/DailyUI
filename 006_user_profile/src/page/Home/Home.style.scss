@@ -1,0 +1,21 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  height: 90vh;
+
+  &-container {
+    display: flex;
+    height: 100%;
+  }
+  &-content {
+    width: 75%;
+    background-color: red;
+  }
+
+  &-image-container {
+    width: 25%;
+    background-color: blue;
+    color: white;
+  }
+}
