@@ -1,21 +1,11 @@
 .home-page {
   display: flex;
   flex-direction: column;
-  margin-top: 10vh;
-  height: 90vh;
+  margin-top: calc(10vh + 10px);
+  height: calc(90vh - 10px);
 
   &-container {
     display: flex;
     height: 100%;
-  }
-  &-content {
-    width: 75%;
-    background-color: red;
-  }
-
-  &-image-container {
-    width: 25%;
-    background-color: blue;
-    color: white;
   }
 }

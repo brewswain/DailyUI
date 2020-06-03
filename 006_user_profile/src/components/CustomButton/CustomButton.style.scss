@@ -1,0 +1,17 @@
+.custom-button {
+  background: hsl(348, 84, 30);
+  color: white;
+  border-radius: 4px;
+  padding: 10px 40px;
+  font-size: 1.2rem;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  border: 1px solid hsl(348, 84, 30);
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: hsl(348, 84, 30);
+    background-color: white;
+  }
+}

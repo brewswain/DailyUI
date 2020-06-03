@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Header } from "../../components";
+import { ImageContainer, ProfileContent } from "../../partials";
 
 import "./Home.style.scss";
 
@@ -9,8 +10,8 @@ const HomePage = () => (
     <Header />
 
     <div className="home-page-container">
-      <div className="home-page-content">Main Content Here!</div>
-      <div className="home-page-image-container">Profile Picture Here!</div>
+      <ProfileContent />
+      <ImageContainer />
     </div>
   </div>
 );
